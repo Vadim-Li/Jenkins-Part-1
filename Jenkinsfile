@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git url: 'https://github.com/yourname/your-repo.git', branch: 'master'
+                git url: 'https://github.com/Vadim-Li/Jenkins-Part-1.git', branch: 'master'
             }
         }
         stage('Install') {
